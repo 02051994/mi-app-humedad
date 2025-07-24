@@ -1,6 +1,0 @@
-@echo off
-"C:\Users\PC\AppData\Local\Programs\Python\Python313\python.exe" "C:\programas\datos_drop_control.py"
-cd C:\programas
-git add .
-git commit -m "Actualización automática de datos"
-git push origin main
