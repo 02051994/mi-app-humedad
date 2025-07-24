@@ -7,7 +7,9 @@ from openpyxl import load_workbook
 # ======================
 # CARGA DE DATOS DESDE TABLA DE EXCEL
 # ======================
-excel_file = "estacion_metereologica.xlsx"
+import os
+
+excel_file = os.path.join(os.path.dirname(__file__), "estacion_metereologica.xlsx")
 sheet_name = "Sheet1"
 
 try:
