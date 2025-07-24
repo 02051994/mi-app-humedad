@@ -64,7 +64,7 @@ semana = fecha_parseada.isocalendar().week if not pd.isna(fecha_parseada) else N
 
 # === Paso 5: Guardar en Excel ===
 datos = {
-    'Fecha': [Fecha_Hora],
+    'Fecha': [datetime.now()],
     'Año': [anio],
     'Sem': [semana],
     'Temperatura (ºC)': [Temperatura],
