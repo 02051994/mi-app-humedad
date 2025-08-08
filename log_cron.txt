@@ -791,3 +791,54 @@ Stacktrace:
 	RtlUserThreadStart [0x0x7ffd3993c34c+44]
 
 [INFO] Cambios detectados. Haciendo push...
+[main 0ccdded] Actualización automática desde WSL
+ 2 files changed, 52 insertions(+)
+fatal: unable to access 'https://github.com/02051994/mi-app-humedad.git/': Could not resolve host: github.com
+Ejecutando script: Fri Aug  8 06:00:01 -05 2025
+There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+Traceback (most recent call last):
+  File "C:\Users\PC\mi-app-humedad\datos_drop_control.py", line 18, in <module>
+    driver.get("https://www.dropcontrol.com/new/login")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 479, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f922e415+77285]
+	GetHandleVerifier [0x0x7ff7f922e470+77376]
+	(No symbol) [0x0x7ff7f8ff9a6a]
+	(No symbol) [0x0x7ff7f8ff6823]
+	(No symbol) [0x0x7ff7f8fe7659]
+	(No symbol) [0x0x7ff7f8fe9401]
+	(No symbol) [0x0x7ff7f8fe7976]
+	(No symbol) [0x0x7ff7f8fe73d6]
+	(No symbol) [0x0x7ff7f8fe709a]
+	(No symbol) [0x0x7ff7f8fe4c68]
+	(No symbol) [0x0x7ff7f8fe54ec]
+	(No symbol) [0x0x7ff7f8ffda1a]
+	(No symbol) [0x0x7ff7f90a167e]
+	(No symbol) [0x0x7ff7f907860a]
+	(No symbol) [0x0x7ff7f90a087f]
+	(No symbol) [0x0x7ff7f90783e3]
+	(No symbol) [0x0x7ff7f9041521]
+	(No symbol) [0x0x7ff7f90422b3]
+	GetHandleVerifier [0x0x7ff7f9511efd+3107021]
+	GetHandleVerifier [0x0x7ff7f950c29d+3083373]
+	GetHandleVerifier [0x0x7ff7f952bedd+3213485]
+	GetHandleVerifier [0x0x7ff7f924884e+184862]
+	GetHandleVerifier [0x0x7ff7f925055f+216879]
+	GetHandleVerifier [0x0x7ff7f9237084+113236]
+	GetHandleVerifier [0x0x7ff7f9237239+113673]
+	GetHandleVerifier [0x0x7ff7f921e298+11368]
+	BaseThreadInitThunk [0x0x7ffd38f1e8d7+23]
+	RtlUserThreadStart [0x0x7ffd3993c34c+44]
+
+[INFO] Cambios detectados. Haciendo push...
