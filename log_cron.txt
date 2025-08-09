@@ -1115,3 +1115,16 @@ Lluvia: 0.0
 Fecha y Hora: 2025-08-08 22:45:00
 Hora de Ejecuci�n: 23:00:16
 [INFO] Cambios detectados. Haciendo push...
+[main 3bb70dd] Actualización automática desde WSL
+ 4 files changed, 15 insertions(+)
+To https://github.com/02051994/mi-app-humedad.git
+   f094e44..3bb70dd  main -> main
+Ejecutando script: Sat Aug  9 00:00:02 -05 2025
+Traceback (most recent call last):
+  File "C:\Users\PC\mi-app-humedad\datos_drop_control.py", line 52, in <module>
+    Lluvia = limpiar_valor(driver.find_element(By.ID, "datosPrecipitacionCampo").text)
+  File "C:\Users\PC\mi-app-humedad\datos_drop_control.py", line 45, in limpiar_valor
+    return float(re.sub(r"[^\d.]", "", valor)) if valor else None
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: ''
+[INFO] Cambios detectados. Haciendo push...
